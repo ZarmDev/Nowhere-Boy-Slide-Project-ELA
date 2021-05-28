@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+    transition: all 0.5s cubic-bezier(.68,-0.55,.27,1.55) 0s;
+}
+body {
+    background-color: rgb(253, 253, 253);
+}
+navbar {
+    margin-bottom: 2vw;
+}
 navbar ul {
+    /* temp as when page loaded it jumps */
+    transition: none !important;
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 10px;
+}
+navbar ul li {
+    margin: 2vw;
+    border: solid black 4px;
+    border-radius: 5px;
+    background-color: #f4f4f4a8;
+    padding: 2vw;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2vw;
+}
+navbar ul li:hover {
+    transition: none;
+    background-color: #ecececa8;
+    border: blue solid 3px;
+}
+.content {
+    margin-top: 5vw;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+}
+.content h1 {
+    font-size: 3vw;
+}
+.content p {
+    font-size: 2vw;
 }
