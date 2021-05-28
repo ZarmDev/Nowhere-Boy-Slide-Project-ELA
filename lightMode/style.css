@@ -33,11 +33,11 @@ navbar ul li {
     user-select: none;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2vw;
+    transition: all 0.1s ease-in-out 0s;
 }
 navbar ul li:hover {
-    transition: none;
     background-color: #ecececa8;
-    border: blue solid 3px;
+    border: rgb(101, 150, 255) solid 3px;
 }
 .content {
     margin-top: 5vw;
