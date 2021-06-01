@@ -51,26 +51,21 @@ navbar ul li:hover {
 }
 .content h1 {
     font-size: 3vw;
+    font-family: 'Fredoka One', cursive;
 }
 .content h5 {
     font-size: 2.2vw;
+    font-family: 'Fredoka One', cursive;
 }
 .content h6 {
     font-size: 2vw;
+    font-family: 'Fredoka One', cursive;
 }
 .content p {
     font-size: 2vw;
+    font-family: 'Charm', cursive;
 }
 .content ul li {
     font-size: 2vw;
-}
-.header {
-    font-family: 'Fredoka One', cursive;
-    font-size: 50px;
-    color: #b17804;
-}
-.small_header {
-    font-family: 'Fredoka One', cursive;
-    font-size: 35px;
-    color: #b17804;
+    font-family: 'Charm', cursive;
 }
