@@ -69,6 +69,11 @@ navbar ul li:hover {
     /* font-family: 'Charm', cursive; */
     font-family: 'Abel', sans-serif;
 }
+.content pre {
+    font-size: 2vw;
+    /* font-family: 'Charm', cursive; */
+    font-family: 'Abel', sans-serif;
+}
 .content ul li {
     font-size: 2vw;
     /* font-family: 'Charm', cursive; */
