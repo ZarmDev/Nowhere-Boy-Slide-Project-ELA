@@ -3,6 +3,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 * {
     transition: all 0.5s cubic-bezier(.68,-0.55,.27,1.55) 0s;
 }
@@ -78,4 +79,28 @@ navbar ul li:hover {
     font-size: 2vw;
     /* font-family: 'Charm', cursive; */
     font-family: 'Abel', sans-serif;
+}
+footer {
+    background-color: #c4c4c46b;
+    width: 100%;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+footer p {
+    margin: 1vw;
+}
+footer a {
+    margin: 1vw;
+}
+footer a:nth-child(2):hover {
+    transform: rotate(30deg);
+    color: #541a8bbb;
+}
+footer a:nth-child(3):hover {
+    transform: rotate(-30deg);
+    color: #541a8bcc;
 }
