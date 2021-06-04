@@ -70,6 +70,10 @@ navbar ul li:hover {
     /* font-family: 'Charm', cursive; */
     font-family: 'Arial', sans-serif;
 }
+.content i {
+    color: #91916b;
+    text-decoration: underline;
+}
 .content pre {
     font-size: 2vw;
     /* font-family: 'Charm', cursive; */
