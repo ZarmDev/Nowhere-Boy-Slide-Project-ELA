@@ -74,6 +74,10 @@ navbar ul li:hover {
     color: #91916b;
     text-decoration: underline;
     font-weight: bold;
+    transition: 0.1s;
+}
+.content i:hover {
+    background-color: #aaaa6c81;
 }
 .content pre {
     font-size: 2vw;

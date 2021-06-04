@@ -50,6 +50,9 @@ navbar ul li:hover {
     font-size: 2.2vw;
     cursor: pointer;
 }
+navbar ul li:nth-child(2n) {
+    border: rgb(101, 150, 255) solid 3px;
+}
 .chapters {
     position: fixed;
     line-height: 2vw;
@@ -93,6 +96,10 @@ navbar ul li:hover {
     color: #91916b;
     text-decoration: underline;
     font-weight: bold;
+    transition: 0.1s;
+}
+.content i:hover {
+    background-color: #aaaa6c81;
 }
 .content pre {
     font-size: 2vw;
