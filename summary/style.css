@@ -92,6 +92,7 @@ navbar ul li:hover {
 .content i {
     color: #91916b;
     text-decoration: underline;
+    font-weight: bold;
 }
 .content pre {
     font-size: 2vw;
