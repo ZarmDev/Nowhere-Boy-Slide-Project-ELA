@@ -7,7 +7,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
   </head>
   <body>
-    <script src='script.js'></script>
     <navbar>
       <ul>
         <a href="/Nowhere-Boy-Slide-Project-ELA/summary/index.html"><li onclick="this.style = 'transform: skewX(5deg); filter: blur(1px); box-shadow: 0 0px 0px 2px blue;'" onmouseout="this.style = 'transform: skewX(0deg)'">Summary</li></a>
@@ -17,12 +16,12 @@
         <a href="/Nowhere-Boy-Slide-Project-ELA/authors craft/index.html"><li onclick="this.style = 'transform: skewX(5deg); filter: blur(1px); box-shadow: 0 0px 0px 2px blue;'" onmouseout="this.style = 'transform: skewX(0deg)'">Author's Craft</li></a>
       </ul>
     </navbar>
-    <h4>even with differences, you can still make a living</h4>
+    <h4 id="light">even with differences, you can still make a living</h4>
     <div class="content">
   <h1>Nowhere Boy Slide Project</h1>
-  <h6>ELA project on the book <i>Nowhere Boy</i> by Katherine Marsh.</h6>
+  <h6>ELA project on the book <i onclick="eArr(0)" onmousemove="this.innerHTML = ogAr[0]">Nowhere Boy</i> by Katherine Marsh.</h6>
   <pre>
-    <i>“there were no parents or grandparents sitting on the benches,
+    <i onclick="eArr(1)" onmousemove="this.innerHTML = ogAr[1]">“there were no parents or grandparents sitting on the benches,
     no babies wailing from their strollers, no toddlers 
     shouting up the slides or clambering up the mound. Ahmed instantly understood: 
     people were afraid to be out.”</i>
@@ -41,5 +40,6 @@ Some other times they were conveyed were in:
     <a href="https://github.com/HeroicNacho">Heroic Nacho</a>
     <a href="https://github.com/ZarmDev">ZarmDev</a>
   </footer>
+  <script src='script.js'></script>
   </body>
 </html>

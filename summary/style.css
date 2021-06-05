@@ -155,6 +155,7 @@ input[type=range]::-moz-range-thumb {
 }
 .content i:hover {
     background-color: #aaaa6c81;
+    cursor: pointer;
 }
 .content pre {
     font-size: 2vw;

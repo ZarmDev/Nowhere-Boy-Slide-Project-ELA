@@ -52,13 +52,16 @@ navbar ul li:hover {
 }
 @keyframes themeAnt {
     0% {top: 0;}
+    16.75% {top: 0.5vw;}
     33.5% {top: 1vw;}
+    50.25% {top: -0.5vw;}
     67% {top: -1vw;}
     100% {top: 0vw;}
 }
 h4 {
     animation-name: themeAnt;
     animation-duration: 1s;
+    animation-iteration-count: infinite;
     position: relative;
     background-color: #ececec4f;
     border-radius: 10px;
@@ -69,6 +72,8 @@ h4 {
     border-width: 5vw;
     padding: 2vw;
     font-family: 'Roboto', sans-serif;
+    transition: 0.1s;
+    margin: unset;
 }
 h4:before {
     content: '"';
@@ -76,6 +81,7 @@ h4:before {
     margin: 2vw;
     font-size: 2vw;
     font-weight: lighter;
+    transition: 0.1s;
 }
 h4:after {
     content: '"';
@@ -83,6 +89,19 @@ h4:after {
     margin: 2vw;
     font-size: 2vw;
     font-weight: lighter;
+    transition: 0.1s;
+}
+h4:hover {
+    color: rgb(172, 172, 172);
+    font-size: 1vw;
+}
+h4:hover::before {
+    background-color: rgba(255, 255, 0, 0.192);
+    color: black;
+}
+h4:hover::after {
+    background-color: rgba(255, 255, 0, 0.137);
+    color: black;
 }
 .content {
     margin-top: 5vw;
@@ -113,6 +132,8 @@ h4:after {
 }
 .content i:hover {
     background-color: #aaaa6c81;
+    cursor: pointer;
+    cursor: pointer;
 }
 .content pre {
     font-size: 2vw;

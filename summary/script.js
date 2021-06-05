@@ -45,3 +45,11 @@ document.getElementById('timelineDiv').onmousemove = function () {
         }
     }
 }
+
+var arrayOfQ = [`https://www.goodreads.com/book/show/36717949-nowhere-boy`];
+
+var ogAr = [`Nowhere Boy`];
+
+function eArr(input) {
+    document.getElementsByTagName('i')[input].innerHTML = arrayOfQ[input];
+}

@@ -7,7 +7,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
   </head>
   <body>
-    <script src='script.js'></script>
     <navbar>
       <ul>
         <a href="/Nowhere-Boy-Slide-Project-ELA/summary/index.html"><li onclick="this.style = 'transform: skewX(5deg); filter: blur(1px); box-shadow: 0 0px 0px 2px blue;'" onmouseout="this.style = 'transform: skewX(0deg)'">Summary</li></a>
@@ -19,10 +18,10 @@
     </navbar>
     <div class="content">
   <h1>Nowhere Boy Slide Project</h1>
-  <h6>ELA project on the book <i>Nowhere Boy</i> by Katherine Marsh.</h6>
+  <h6>ELA project on the book <i onclick="eArr(0)" onmousemove="this.innerHTML = ogAr[0]">Nowhere Boy</i> by Katherine Marsh.</h6>
   <h5>Perspective</h5>
   <pre>
-    <i>Ahmed would have to try; he had lost faith in his own.
+    <i onclick="eArr(1)" onmousemove="this.innerHTML = ogAr[1]">Ahmed would have to try; he had lost faith in his own.
     Would a Jewish organization really want to help a Muslim boy?
     They probably just resented the comparison between his plight and Ralph’s. 
     People were always weighing their suffering against others’,</i>
@@ -38,5 +37,6 @@
     <a href="https://github.com/HeroicNacho">Heroic Nacho</a>
     <a href="https://github.com/ZarmDev">ZarmDev</a>
   </footer>
+  <script src='script.js'></script>
   </body>
 </html>
