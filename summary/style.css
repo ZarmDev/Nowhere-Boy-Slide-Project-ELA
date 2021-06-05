@@ -5,6 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 * {
     transition: all 0.5s cubic-bezier(.68,-0.55,.27,1.55) 0s;
 }
@@ -71,21 +73,58 @@ navbar ul li:nth-child(2n) {
 .chapters a:hover {
     color: rgb(104, 104, 104);
 }
-.timeline div:nth-child(1) {
-    border: solid #525252a8 4px;
-    border-radius: 10px;
-    height: 1vw;
-    position: absolute;
-    width: 95%;
+#timelineDiv {
+    text-align: center;
 }
-.timeline div:nth-child(2) {
-    border: solid black 4px;
-    border-radius: 50%;
-    width: 1vw;
-    height: 1vw;
+#timelineDiv h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+}
+#timelineDiv p pre {
+    font-size: 1.5vw;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#timelineDiv input::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
     cursor: pointer;
-    position: absolute;
-    transition: none;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #3071a9;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+  
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    background: #3071a9;
+    border-radius: 1.3px;
+    border: 0.2px solid #010101;
+}
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+  
+  /* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    border: 1px solid #000000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #ffffff;
+    cursor: pointer;
 }
 .content {
     margin-top: 5vw;

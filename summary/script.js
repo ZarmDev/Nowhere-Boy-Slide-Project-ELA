@@ -24,12 +24,24 @@ Ahmed finds his dad and reunites, better yet they are allowed to go out of the c
 (Washington DC) which is where Max lives.
 </pre>`];
 
-var circle = document.getElementById('timeline');
-var equ = document.getElementById('timeline').value;
-
 var timelineOut = document.getElementById('timelineOut');
-for (var i = 1; i < timelineContent.length; i++) {
-    if (circle > equ * i && circle < equ * i + 1) {
+
+var circle = document.getElementById('timeline');
+
+circle.value = 0;
+
+circle.max = timelineContent.length - 1;
+
+for (var i = 0; i < timelineContent.length; i++) {
+    if (i == circle.value) {
         timelineOut.innerHTML = timelineContent[i];
+    }
+}
+
+document.getElementById('timelineDiv').onmousemove = function () {
+    for (var i = 0; i < timelineContent.length; i++) {
+        if (i == circle.value) {
+            timelineOut.innerHTML = timelineContent[i];
+        }
     }
 }
