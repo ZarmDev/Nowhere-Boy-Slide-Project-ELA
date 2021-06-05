@@ -71,6 +71,22 @@ navbar ul li:nth-child(2n) {
 .chapters a:hover {
     color: rgb(104, 104, 104);
 }
+.timeline div:nth-child(1) {
+    border: solid #525252a8 4px;
+    border-radius: 10px;
+    height: 1vw;
+    position: absolute;
+    width: 95%;
+}
+.timeline div:nth-child(2) {
+    border: solid black 4px;
+    border-radius: 50%;
+    width: 1vw;
+    height: 1vw;
+    cursor: pointer;
+    position: absolute;
+    transition: none;
+}
 .content {
     margin-top: 5vw;
     text-align: center;
