@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
 * {
     transition: all 0.5s cubic-bezier(.68,-0.55,.27,1.55) 0s;
 }
@@ -48,6 +49,40 @@ navbar ul li:hover {
     border: rgb(101, 150, 255) solid 3px;
     font-size: 2.2vw;
     cursor: pointer;
+}
+@keyframes themeAnt {
+    0% {top: 0;}
+    33.5% {top: 1vw;}
+    67% {top: -1vw;}
+    100% {top: 0vw;}
+}
+h4 {
+    animation-name: themeAnt;
+    animation-duration: 1s;
+    position: relative;
+    background-color: #ececec4f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vw;
+    border-width: 5vw;
+    padding: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+h4:before {
+    content: '"';
+    font-family: 'Stint Ultra Condensed', cursive;
+    margin: 2vw;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+h4:after {
+    content: '"';
+    font-family: 'Stint Ultra Condensed', cursive;
+    margin: 2vw;
+    font-size: 2vw;
+    font-weight: lighter;
 }
 .content {
     margin-top: 5vw;
