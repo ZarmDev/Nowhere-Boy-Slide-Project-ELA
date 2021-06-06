@@ -8,3 +8,10 @@ people were afraid to be out.”`];
 function eArr(input) {
     document.getElementsByTagName('i')[input].innerHTML = arrayOfQ[input];
 }
+
+var iz = document.getElementsByTagName('i');
+
+for (var i = 0; i < iz.length; i++) {
+    iz[i].setAttribute('onclick', `eArr(${i})`)
+    iz[i].setAttribute('onmousemove', `this.innerHTML = ogAr[${i}]`)
+}
