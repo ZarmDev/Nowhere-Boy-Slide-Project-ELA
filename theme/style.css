@@ -60,7 +60,7 @@ navbar ul li:hover {
 }
 h4 {
     animation-name: themeAnt;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     position: relative;
     background-color: #ececec4f;
