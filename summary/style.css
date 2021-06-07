@@ -4,14 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 * {
     transition: all 0.5s cubic-bezier(.68,-0.55,.27,1.55) 0s;
 }
 body {
     background-color: rgb(253, 253, 253);
+    font-family: 'EB Garamond', serif !important;
 }
 navbar {
     margin-bottom: 2vw;
