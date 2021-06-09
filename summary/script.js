@@ -1,12 +1,13 @@
 var timelineContent = [`<pre>
-Nowhere boy is a compelling book with two perspectives, Ahmed and Max.
-Ahmed is a kind boy who is a refugee and homeless.
-Max is a boy who traveled to Brussels because his parents were in search of a "better" place for Max.
-Ahmed ends up in Turkey after bombings in Syria (his home)
-He gets to the coast of Greece through a boat and in turn lost his dad, his only family as the rest had been killed in a bomb.
-He then rides with a smuggler and eventually ends up in Brussels, also losing his phone.
-Ahmed happens to live in Max's house and lives in a wine "cellular"
-Max is very brave because he finds him and doesn't report him, he also is a nice kid because he didn't discriminate.
+Nowhere boy is an engrossing book with the prespectives of two boys, Ahmed and Max. 
+Ahmed is a kind refugee and Max has been dragged off to Brussels by his parents because they are in search 
+for a "better" place for Max. In Chapter 1, Ahmed's dad supposedly drowns and dies. Ahmed takes transportation
+via a smuggler, but this smuggler wanted more money than Ahmed had and tried to trap him in the car. However, 
+Ahmed was able to escape and he bolted inside the first house he could find. This house happens to be the house 
+Max, his parents, and his sister are living in. Ahmed makes the cellar his home and tries to only steal what he absolutely 
+needs, taking very little food from the kitchen. Almost as repayment, Ahmed tends to the the garden, and his work does 
+not go unnoticed. Soon, Max finds Ahmed, however, Max does not tell his parents or Inspector Fontaine about Ahmed 
+because he is very curious and does not view Ahmed as a threat. From this point on, Max and Ahmed become great friends.
 </pre>`, `<pre>In the middle of the book, Max gives food and helps Ahmed by giving him supplies.
 Farah is a girl who is Muslim and agreed to help with Max's plan.
 Oscar is a boy who bullied Max but eventually became his friend because Max punched him and they
