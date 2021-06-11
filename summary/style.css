@@ -164,6 +164,10 @@ input[type=range]::-moz-range-thumb {
     /* font-family: 'Charm', cursive; */
     font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+#tempFontChange {
+    font-size: 2vw;
+    font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 .content ul li {
     font-size: 2vw;
     /* font-family: 'Charm', cursive; */
