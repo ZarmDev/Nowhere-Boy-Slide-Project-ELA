@@ -1,4 +1,4 @@
-var arrayOfQ = [`https://www.goodreads.com/book/show/36717949-nowhere-boy`, `Page 243-244`, `Page 539-540`];
+var arrayOfQ = [`https://www.goodreads.com/book/show/36717949-nowhere-boy`, `Page 243-244`, `Page 517-518`, `Page 539-540`];
 
 var ogAr = [`Nowhere Boy`, `he imagined how it must feel for him to hear the world outside—the shouts from the schoolyard,
 the planes overhead, the sirens and honks and construction noises—and know he couldn’t be part of it.
