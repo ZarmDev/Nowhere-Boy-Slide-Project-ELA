@@ -84,7 +84,8 @@ navbar ul li:hover {
 .content pre {
     font-size: 2vw;
     /* font-family: 'Charm', cursive; */
-    font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: 'Overlock', cursive;
 }
 .content ul li {
     font-size: 2vw;
