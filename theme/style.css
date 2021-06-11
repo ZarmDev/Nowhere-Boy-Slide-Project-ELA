@@ -130,6 +130,7 @@ h4:hover::after {
     text-decoration: underline;
     font-weight: bold;
     transition: 0.1s;
+    font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .content i:hover {
     background-color: #aaaa6c81;
