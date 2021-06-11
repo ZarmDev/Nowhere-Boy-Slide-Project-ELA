@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
 * {
     transition: all 0.5s cubic-bezier(.68,-0.55,.27,1.55) 0s;
 }
@@ -162,11 +163,13 @@ input[type=range]::-moz-range-thumb {
 .content pre {
     font-size: 2vw;
     /* font-family: 'Charm', cursive; */
-    font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: 'Overlock', cursive;
 }
 #tempFontChange {
     font-size: 2vw;
-    font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+    font-family: 'Overlock', cursive;
 }
 .content ul li {
     font-size: 2vw;
